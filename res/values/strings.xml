@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Seeder SMS</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome the Emergency SMS Seeder application!</string>
+    <string name="awaiting_emergency">Awaiting emergency signal from PC</string>
+    <string name="testing_menu">Testing Menu</string>
+    <string name="title_activity_testing_menu">Testing Menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="test_menu_welcome">Press the initiate emergency signal button when ready</string>
+    <string name="title_activity_initiate_emergency">Emergency Initiation</string>
+    <string name="initiate_emergency_signal">Initiate Emergency Signal</string>
+    <string name="emergency">Emergency Alert Initiated</string>
+    <string name="title_activity_alert_sending">Sending Alerts</string>
+    <string name="sendAlerts">Send SMS/Email</string>
+    <string name="service_name">Seeder SMS Service</string>
+    <string name="please_wait">Please wait while the emergency messages are sent</string>
+    <string name="title_activity_enter_phone">Seeder SMS</string>
+    <string name="please_enter">Please enter your mobile phone number then tap \'Next\'</string>
+    <string name="next_button">Next</string>
+
+</resources>
