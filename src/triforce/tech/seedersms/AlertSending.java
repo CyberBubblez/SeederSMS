@@ -17,7 +17,7 @@ import android.widget.Toast;
 
 /**
  * @author Josh Hanrahan
- *
+ * 
  */
 public class AlertSending extends Activity {
 	GPSTracker gps;
@@ -90,15 +90,6 @@ public class AlertSending extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
-	}
-
-	public void sendMessage(View view) {
-		Intent intent = new Intent(Intent.ACTION_SENDTO);
-		Uri uri = Uri.parse("mailto:joshua.hanrahan@gmail.com");
-		intent.setData(uri);
-		intent.putExtra(Intent.EXTRA_SUBJECT, "Fundamentals");
-		intent.putExtra(Intent.EXTRA_TEXT, "This is a message");
-		startActivity(Intent.createChooser(intent, "Send a message with: "));
 	}
 
 }
